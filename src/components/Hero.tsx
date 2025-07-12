@@ -16,7 +16,7 @@ const Hero = () => {
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.2, duration: 0.6 }}
+        transition={{ delay: 0.2, duration: 0.4 }}
         className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white"
       >
         Roshan Kajulkar
@@ -25,7 +25,7 @@ const Hero = () => {
       <motion.p
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.4, duration: 0.6 }}
+        transition={{ delay: 0.3, duration: 0.4 }}
         className="mt-2 text-lg text-gray-700 dark:text-gray-100"
       >
         Fullstack Developer who gets things done — from Pixel to Production 🚀
@@ -34,7 +34,7 @@ const Hero = () => {
       <motion.p
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.6, duration: 0.6 }}
+        transition={{ delay: 0.4, duration: 0.2 }}
         className="mx-auto mt-1 max-w-xl text-sm text-gray-800 dark:text-gray-300"
       >
         I build fast frontends, scalable backends, deploy with DevOps, and

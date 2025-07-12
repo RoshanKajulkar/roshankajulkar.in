@@ -1,7 +1,8 @@
-import { motion } from "motion/react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
+import LifeLog from "./components/LifeLog";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,24 +14,9 @@ function App() {
 
         <Skills />
 
-        <div className="mt-36 pb-16">
-          <motion.h1
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 4 }}
-            className="my-4 text-center text-2xl"
-          >
-            🚧 Building my portfolio...
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 4 }}
-            className="text-center text-2xl"
-          >
-            Please check back later to check out projects!
-          </motion.p>
-        </div>
+        <LifeLog />
+
+        <Footer />
       </div>
     </div>
   );
