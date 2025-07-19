@@ -74,7 +74,7 @@ const timelineData = [
 
 const LifeLog = () => {
   return (
-    <section className="mt-20 px-4">
+    <section className="mt-16 px-4">
       <h2 className="text-center text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">
         My Journey
       </h2>

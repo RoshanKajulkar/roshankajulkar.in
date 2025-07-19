@@ -4,6 +4,8 @@ import Skills from "./components/Skills";
 import LifeLog from "./components/LifeLog";
 import Footer from "./components/Footer";
 import LogVisit from "./components/LogVisit";
+import BlogSection from "./components/BlogSection";
+
 function App() {
   return (
     <div className="min-h-full bg-white text-black dark:bg-black dark:text-white">
@@ -15,6 +17,8 @@ function App() {
         <Hero />
 
         <Skills />
+
+        <BlogSection />
 
         <LifeLog />
 
