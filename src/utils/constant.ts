@@ -5,6 +5,6 @@ const LINKS = {
   X: "https://x.com/roshankajulkar",
 };
 
-const BACKEND_URL = "https://api.portfolio.roshankajulkar.in";
+const BACKEND_URL = "https://api.portfolio.roshankajulkar.in/api";
 
 export { LINKS, BACKEND_URL };
