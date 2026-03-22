@@ -3,17 +3,26 @@ import { motion } from "motion/react";
 const Skills = () => {
   return (
     <section className="mt-16 px-4 text-center">
-      <motion.h2 
+      <motion.h2
         className="mb-4 text-2xl font-bold text-gray-900 dark:text-white"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.2, delay: 0.5}}
+        transition={{ duration: 0.2, delay: 0.5 }}
       >
         My Skills
       </motion.h2>
 
       <div className="mx-auto grid max-w-4xl gap-6 sm:grid-cols-2">
         {[
+          {
+            title: "Backend",
+            tools: [
+              { name: "Java", icon: "/tech/java.svg" },
+              { name: "Spring Boot", icon: "/tech/spring-boot.svg" },
+              { name: "PostgreSQL", icon: "/tech/postgres.svg" },
+              { name: "Redis", icon: "/tech/redis.svg" },
+            ],
+          },
           {
             title: "Frontend",
             tools: [
@@ -22,14 +31,6 @@ const Skills = () => {
               { name: "Tailwind", icon: "/tech/tailwind.svg" },
               { name: "Motion", icon: "/tech/framer.svg" },
               { name: "TypeScript", icon: "/tech/typescript.svg" },
-            ],
-          },
-          {
-            title: "Backend",
-            tools: [
-              { name: "Node.js", icon: "/tech/node.svg" },
-              { name: "MongoDB", icon: "/tech/mongodb.svg" },
-              { name: "PostgreSQL", icon: "/tech/postgres.svg" },
             ],
           },
           {
@@ -43,9 +44,10 @@ const Skills = () => {
           {
             title: "GenAI",
             tools: [
+              { name: "Python & RAG Systems", icon: "/tech/python.svg" },
               {
-                name: "Prompt Engineering, LLM Powered Apps & RAG",
-                icon: "/tech/google-bard-1.svg",
+                name: "LangChain & LLM Agents",
+                icon: "/tech/ai.svg",
               },
             ],
           },

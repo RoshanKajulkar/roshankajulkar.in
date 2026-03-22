@@ -28,7 +28,7 @@ const Footer = () => {
             👁️ Total visits: {totalViews !== null ? totalViews : "Loading..."}
           </p>
           <p>
-            🔐 We only log basic location info (like{" "}
+            🔐 I only log basic location info (like{" "}
             <strong>city, region, and country</strong>) - just curious to know
             who's dropping by 😇
           </p>

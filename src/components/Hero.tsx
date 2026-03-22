@@ -28,7 +28,8 @@ const Hero = () => {
         transition={{ delay: 0.3, duration: 0.4 }}
         className="mt-2 text-lg text-gray-700 dark:text-gray-100"
       >
-        Fullstack Developer who gets things done — from Pixel to Production 🚀
+        Backend-Focused Full Stack Engineer building scalable systems from first
+        principles 🚀
       </motion.p>
 
       <motion.p
@@ -37,8 +38,9 @@ const Hero = () => {
         transition={{ delay: 0.4, duration: 0.2 }}
         className="mx-auto mt-1 max-w-xl text-sm text-gray-800 dark:text-gray-300"
       >
-        I build fast frontends, scalable backends, deploy with DevOps, and
-        innovate with GenAI — delivering value end to end.
+        I design reliable backends, optimize data and performance, and ship
+        end-to-end products — with a strong focus on fundamentals over
+        frameworks.
       </motion.p>
     </section>
   );

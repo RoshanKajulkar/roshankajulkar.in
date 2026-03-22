@@ -2,6 +2,18 @@ import { motion } from "motion/react";
 
 const timelineData = [
   {
+    year: "Mar 2026",
+    title: "Built a Scalable URL Shortener",
+    descriptionLines: [
+      "- Designed and developed a production-ready URL shortener using Spring Boot",
+      "- Implemented Base62 encoding, UUID-based IDs, and collision-free short link generation",
+      "- Added rate limiting using Bucket4j to prevent abuse and ensure system stability",
+      "- Integrated Redis caching for faster redirects and improved performance",
+      "- Designed RESTful APIs with proper validation, error handling, and clean architecture",
+      "- Wrote unit and integration tests using JUnit and Mockito to ensure reliability",
+    ],
+  },
+  {
     year: "July 2025",
     title: "Launched My Portfolio Website",
     descriptionLines: [
